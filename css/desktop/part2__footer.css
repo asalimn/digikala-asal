@@ -1,0 +1,25 @@
+.part2__footer {
+  width: 100%;
+  height: 130px;
+}
+.main__part2__footer {
+  width: 1200px;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__part2__footer .photo__part2__foot a{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main__part2__footer .photo__part2__foot a p{
+    color: black;
+    font-family: var(--font-family);
+    font-size: 12px;
+}

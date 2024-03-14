@@ -1,0 +1,78 @@
+.digiclub {
+  width: 100%;
+  height: 88px;
+  margin-top: 30px;
+}
+.digiclub .maindigiclub {
+  width: 1333px;
+  height: inherit;
+  background-color: #007295;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.digiclub .maindigiclub .logo__digiclub {
+  width: 20%;
+}
+.digiclub .maindigiclub .logo__digiclub svg {
+  padding: 10px 30px 0 0;
+}
+.digiclub .maindigiclub .game__digiclub {
+  width: 77%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 5px;
+}
+.digiclub .maindigiclub .game__digiclub a {
+  text-decoration: none;
+}
+.digiclub .maindigiclub .game__digiclub a .back1,
+.back2,
+.back3 {
+  width: 290px;
+  height: 63px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.digiclub .maindigiclub .game__digiclub a .back1 {
+  background-image: url(../../images/digiclub/club1.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.digiclub .maindigiclub .game__digiclub a .back1,
+.back2,
+.back3 svg {
+  margin-right: 8px;
+}
+.digiclub .maindigiclub .game__digiclub a .back1,
+.back2,
+.back3 p {
+  color: black;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: bold;
+}
+.digiclub .maindigiclub .game__digiclub a .back2 {
+  background-image: url(../../images/digiclub/club2.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.digiclub .maindigiclub .game__digiclub a .back3 {
+  background-image: url(../../images/digiclub/club3.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.digiclub .maindigiclub .nothing {
+  width: 3%;
+}

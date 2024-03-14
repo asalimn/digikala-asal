@@ -1,0 +1,35 @@
+.brand{
+    width: 100%;
+    height: 250px;
+  margin-bottom: 30px;
+}
+.lieblingsbrand{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 1px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.lieblingsbrand p{
+    font-family: var(--font-family);
+   font-size: 20px;
+}
+.mainpart{
+    width:1200px ;
+    height: inherit;
+    margin: 0 auto;
+
+border: 2px solid lightgray;
+border-radius:10px;
+}
+ .mainpart .swiper-slide{
+    margin-top: 20px;
+}
+  .mainpart .swiper-slide img{
+    width:100px;
+    height: 100px;
+ }
+ .mainpart .swiper-slide img.bird{
+    width: 170px;
+ }

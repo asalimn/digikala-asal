@@ -1,0 +1,14 @@
+.help {
+  width: 47px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50px;
+  border-radius: 50%;
+  bottom: 10px;
+  background-color: #ef4056;
+  z-index: 1000;
+  cursor: pointer;
+}

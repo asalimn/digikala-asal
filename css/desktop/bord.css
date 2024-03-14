@@ -1,0 +1,15 @@
+.bord{
+    width: 100%;
+    height: 300px;
+}
+.bord .zwei{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 10px;
+}
+.bord .zwei img{
+    width: 640px;
+    height: 260px;
+    border-radius: 15px;
+}
